@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "ep-PML2nd"
+version = "1.0"
+description = "Experimental programs based on \"Python Machine Learning 2nd Editio(ja)\"."
+authors = ["gili-Katagiri <kt.giri1425@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+numpy = "^1.19.4"
+pandas = "^1.1.4"
+matplotlib = "^3.3.3"
+scipy = "^1.5.4"
+scikit-learn = "^0.23.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
